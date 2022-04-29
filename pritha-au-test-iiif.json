@@ -1,0 +1,126 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://174e9962-258e-4aad-a863-b33a1e55716d",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://9c8f7ffc-20a3-4870-b4c5-f353afa5dd60",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://39402d05-4a5a-4703-ac1d-b9b0ca1e7e6a",
+					"@type": "sc:Canvas",
+					"label": "8am, before the heat wave sets in",
+					"height": 3024,
+					"width": 3024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://05209183-8791-47c2-9990-c8971b70884c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/img-4424_202204/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/img-4424_202204",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3024,
+								"width": 3024
+							},
+							"on": "http://39402d05-4a5a-4703-ac1d-b9b0ca1e7e6a"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://92fe9ec3-1a9d-4d95-846f-2acf958e6343",
+					"@type": "sc:Canvas",
+					"label": "44 degree centigrade",
+					"height": 3024,
+					"width": 3024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://df973234-9c4b-4735-a91d-c0123f715478",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/img-4447/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/img-4447",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3024,
+								"width": 3024
+							},
+							"on": "http://92fe9ec3-1a9d-4d95-846f-2acf958e6343"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://4147b44b-7471-48c8-b35c-6ca505f61172",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3024,
+					"width": 3024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://31a13f63-ea58-4ea4-9dc2-fce33dd88f8e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/img-4458_20220429/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/img-4458_20220429",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3024,
+								"width": 3024
+							},
+							"on": "http://4147b44b-7471-48c8-b35c-6ca505f61172"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"thumbnail": {
+		"@id": "http://39402d05-4a5a-4703-ac1d-b9b0ca1e7e6a"
+	}
+}
